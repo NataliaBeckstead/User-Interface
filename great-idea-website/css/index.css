@@ -84,12 +84,10 @@ nav a {
 	color: lightgray;
 	margin: 0 4%;
 	padding-bottom: 20px;
-	position:relative;
 }
 .logo {
 	display: inline-block;
 	margin-left: 200px;
-	position:relative;
 	text-align: center;
 }
 /*Header*/
@@ -119,8 +117,53 @@ button {
 	height: 40px;
 }
 /*section*/
-
+section div {
+	display: inline-block;
+	text-align: left;
+	padding: 2%;
+}
+#Features {
+	display: inline-block;
+	width: 49%;
+	border-top: 3px solid black;
+	margin-top: 2%;
+}
+#About {
+	display: inline-block;
+	width: 49%;
+	border-top: 3px solid black;
+	margin-top: 2%;
+}
+#Services {
+	width: 30%;
+	border-bottom: 3px solid black;
+}
+#Product {
+	width: 30%;
+	border-bottom: 3px solid black;
+}
+#Vision {
+	width: 30%;
+	border-bottom: 3px solid black;
+}
+section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 /*address*/
+address {
+	margin: 2%;	
+}
+#phone {
+	text-decoration: none;
+	color: black;
+}
+#email {
+	text-decoration: none;
+	color: black;
+}
 /*footer*/
 footer {
 	text-align: center;
