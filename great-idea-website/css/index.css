@@ -77,6 +77,9 @@ nav {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 3%;
+	background-color: #0b018f;
+	position: sticky;
+  	top: 0;
 }
 nav a {
 	display: inline-block;
@@ -89,6 +92,8 @@ nav a {
 	display: inline-block;
 	margin-left: 200px;
 	text-align: center;
+	position: relative;
+    top: 10px;
 }
 /*Header*/
 div.innovation {
@@ -116,6 +121,9 @@ button {
 	width: 180px;
 	height: 40px;
 }
+button:hover {
+	border: 5px solid black;
+}
 /*section*/
 section div {
 	display: inline-block;
@@ -124,33 +132,33 @@ section div {
 }
 #Features {
 	display: inline-block;
-	width: 49%;
+	width:  49.5%;
 	border-top: 3px solid black;
 	margin-top: 2%;
 }
 #About {
 	display: inline-block;
-	width: 49%;
+	width: 49.5%;
 	border-top: 3px solid black;
 	margin-top: 2%;
 }
 #Services {
-	width: 30%;
+	width: 33%;
 	border-bottom: 3px solid black;
 }
 #Product {
-	width: 30%;
+	width: 33%;
 	border-bottom: 3px solid black;
 }
 #Vision {
-	width: 30%;
+	width: 33%;
 	border-bottom: 3px solid black;
 }
 section img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 100%;
 }
 /*address*/
 address {
