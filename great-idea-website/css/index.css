@@ -96,6 +96,9 @@ nav a {
     top: 10px;
 }
 /*Header*/
+header {
+	margin-bottom: 5%;
+}
 div.innovation {
 	display: inline-block;
 	text-align: center;
@@ -125,34 +128,57 @@ button:hover {
 	border: 5px solid black;
 }
 /*section*/
-section div {
-	display: inline-block;
+
+#Features {
+	display: table-cell;
+	width:  49%;
+	border-top: 3px solid black;
+	margin-top: 5%;
 	text-align: left;
 	padding: 2%;
 }
-#Features {
-	display: inline-block;
-	width:  49.5%;
-	border-top: 3px solid black;
-	margin-top: 2%;
-}
 #About {
-	display: inline-block;
-	width: 49.5%;
+	display: table-cell;
+	width: 49%;
 	border-top: 3px solid black;
+	margin-top: 5%;
+	text-align: left;
+	padding: 2%;
+}
+div.spacingTop {
+	display: table-cell;
+	width: 2%;
+	border-top: 3px solid black;
+	margin-top: 5%;
+	padding-top: 7%;
+}
+div.spacingBottom {
+	display: table-cell;
+	width: 1%;
+	border-bottom: 3px solid black;
 	margin-top: 2%;
 }
 #Services {
-	width: 33%;
+	display: table-cell;
+	width: 32%;
 	border-bottom: 3px solid black;
+	text-align: left;
+	padding: 2%;
 }
+
 #Product {
-	width: 33%;
+	display: table-cell;
+	width: 32%;
 	border-bottom: 3px solid black;
+	text-align: left;
+	padding: 2%;
 }
 #Vision {
-	width: 33%;
+	display: table-cell;
+	width: 32%;
 	border-bottom: 3px solid black;
+	text-align: left;
+	padding: 2%;
 }
 section img {
 	display: block;
